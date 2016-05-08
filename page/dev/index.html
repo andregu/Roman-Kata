@@ -1,0 +1,67 @@
+<!doctype html>
+<html ng-app="romanKata">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="js/vendor/romankata_vendor.js" ></script>
+	<script type="text/javascript" src="js/romankata.js" ></script>
+</head>
+<body class="text-center" >
+	<h1>Roman Numerals Kata</h1>
+	<div class="clearfix">
+		<div class="forms col-xs-6 col-xs-offset-3">
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#roman" aria-controls="roman" role="tab" data-toggle="tab">Roman to Arabic</a></li>
+				<li role="presentation"><a href="#arabic" aria-controls="arabic" role="tab" data-toggle="tab">Arabic to Roman</a></li>
+			</ul>
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="roman" ng-controller="RomanArabicController">
+					<div class="form-inline"> 
+						<div class="form-group">
+							<label class="sr-only" for="number_roman">Number</label>
+							<div class="input-group">
+								<input type="text" ng-model="number" class="form-control" id="number_roman" placeholder="Roman Number">
+							</div>
+						</div>
+						<button ng-click="convert()" class="btn btn-primary">convert</button>
+					</div>
+					<div>
+						Answer : <span>{{ answer }}</span>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="arabic" ng-controller="ArabicRomanController">
+					<div class="form-inline" id="arabic_roman">
+						<div class="form-group">
+							<label class="sr-only" for="number_arabic">Number</label>
+							<div class="input-group">
+								<input type="text" ng-model="number" class="form-control" id="number_arabic" placeholder="Arabic Number">
+							</div>
+						</div>
+						<button ng-click="convert()" class="btn btn-primary">convert</button>
+					</div>
+					<div>
+						Answer : <span>{{answer}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<h3>Recent Conversions</h3>
+	<div class="convestion" ng-controller="NumbersController">
+		<table class="table table-hover col-xs-6">
+			<tr>
+				<th>Date</th>
+				<th>From</th>
+				<th>To</th>
+			</tr>
+			<tr ng-repeat="number in numbers">
+				<td>{{number.convertedOn}}</td>
+				<td>{{number.mode=="romanToArabic" ? number.roman : number.arabic}}</td>
+				<td>{{number.mode=="romanToArabic" ? number.arabic : number.roman}}</td>
+			</tr>
+		</table>
+		
+	</div>
+	
+	<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>

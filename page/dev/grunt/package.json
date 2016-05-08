@@ -1,0 +1,40 @@
+{
+    "name": "romankata",
+    "version": "0.0.1",
+    "dependencies": {},
+    "devDependencies": {
+        "autoprefixer": "^6.3.1",
+        "bower": "^1.7.2",
+        "grunt": "^1.0.1",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-cli": "^1.2.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-contrib-compass": "^1.0.4",
+        "grunt-contrib-concat": "^1.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-imagemin": "^1.0.0",
+        "grunt-contrib-jshint": "^1.0.0",
+        "grunt-contrib-rename": "0.0.3",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-copy-to": "0.0.12",
+        "grunt-curl": "^2.2.0",
+        "grunt-newer": "^1.1.1",
+        "grunt-notify": "^0.4.3",
+        "grunt-postcss": "^0.8.0",
+        "grunt-purifycss": "^0.1.0",
+        "grunt-replace": "^0.11.0",
+        "grunt-sass": "^1.1.0",
+        "grunt-zip": "^0.17.1",
+        "jshint-stylish": "^2.1.0",
+        "load-grunt-config": "*",
+        "load-grunt-tasks": "^3.4.0",
+        "postcss-safe-parser": "^1.0.4",
+        "postcss-scss": "^0.1.3",
+        "time-grunt": "^1.3.0"
+    },
+    "author": "André Guerreiro <andre_gu_1@hotmail.com>",
+    "license": {
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }
+}

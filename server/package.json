@@ -1,0 +1,14 @@
+{
+  "name": "romankata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "^4.11.2",
+    "mongojs": "^2.4.0",
+    "restify": "^4.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

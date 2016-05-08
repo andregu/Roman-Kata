@@ -1,0 +1,31 @@
+
+/*
+* Generate font family and sizes here
+*
+*/
+
+/*
+* Example:
+* @include fontface('{project}', 'fonts/{project}', '{project}');
+* $font-family-project: '{project}', serif;
+*
+*
+*
+* Usage:
+*   .class {
+*     font-family: $font-family-project;
+*     @include font-size(2.2);
+*   }
+*
+*	Typography:
+*	use:
+*	font-family: 'Gotham SSm A', 'Gotham SSm B';
+*	font-weight: 500; OR font-weight: 700;
+*	font-style: normal; OR font-style: italic;
+*
+* 	TypeKit:
+* 	use class:
+* 	.tk-ff-dax-web-pro-condensed
+* 	.tk-omnes-pro
+*
+*/

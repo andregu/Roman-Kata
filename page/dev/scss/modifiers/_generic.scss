@@ -1,0 +1,37 @@
+
+
+/*
+ * BEVM BEVM BEVM
+ * block__element--variation -modifier
+ *
+ * Modifiers:
+ *   All generic modifiers go here:
+ *
+ * Example:
+ *  .-no-padding{
+ *    padding: 0;
+ *  }
+ */
+
+.-no-padding {
+  padding: 0 !important;
+}
+
+.-no-border {
+  border: none !important;
+}
+
+.-no-margin {
+  margin: 0 !important;
+}
+
+.-clean {
+	margin: 0 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+	clear: both;
+	float: none !important;
+	text-decoration: none !important; 
+}

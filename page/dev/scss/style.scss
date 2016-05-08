@@ -1,0 +1,28 @@
+/*
+Theme Name: BAS - Sociedade de Advogados
+Author: João Moleiro
+Version: 1.0.0
+Author URI: jf.moleiro@gmail.com
+Theme URI: http://www.bas.pt
+Description: BAS theme by João Moleiro
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import "compass";
+
+//Insert vendor specific styles here
+@import "configs/fonts";
+@import "configs/variables";
+@import "vendor/bootstrap/bootstrap-sprockets";
+@import "vendor/bootstrap/bootstrap";
+
+@import "configs/mixins";
+@import "configs/colors";
+@import "configs/images";
+@import "configs/sprites";
+@import "configs/transitions";
+
+
+//Insert specific modules here
+@import "modules/main";

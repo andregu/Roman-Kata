@@ -1,0 +1,22 @@
+{
+  "name": "grunt",
+  "version": "0.0.1",
+  "authors": [
+    "André Guerreiro <andre_gu_1@hotmail.com>"
+  ],
+  "description": "romankata",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "compass": "https://github.com/Compass/compass.git#^1.0.3"
+  },
+  "devDependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "angular": "1.5.5"
+  }
+}
